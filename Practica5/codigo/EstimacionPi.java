@@ -13,12 +13,12 @@ public class EstimacionPi {
             // Generamos coordenadas aleatorias (x, y)
             double posX = Math.random();
             double posY = Math.random();
-            // Formula para calcular la distancia al centro
+            
+            // Fórmula para calcular la distancia al centro
             double distanciaAlCentro = (posX * posX) + (posY * posY);
 
-            // Condición si cae dentro
+            // Condición si cae dentro del cuarto de círculo
             if (distanciaAlCentro <= 1.0) {
-                // Sumar puntos si se acierta
                 contadorDentro++; 
             }
 
@@ -29,7 +29,7 @@ public class EstimacionPi {
         // Calculamos el valor de Pi
         double valorPi = 4.0 * contadorDentro / cDardosTotales;
 
-        // Imprimimos el resultado
+        // Imprimimos el resultado de la forma sencilla
         System.out.println("Aproximación de pi: " + valorPi);
     }
 }

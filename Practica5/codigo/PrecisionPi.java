@@ -9,9 +9,7 @@ public class PrecisionPi {
         int contadorDentro = 0;   
         double valorPi = 0.0;
         
-        // Calculamos el error 
-        double diferenciaError = Math.abs(Math.PI - valorPi);
-
+    
         // El ciclo mientras el error sea mayor o igual al margen permitido
         while (diferenciaError >= margenError) {
             // Generamos coordenadas aleatorias (x, y)
