@@ -30,6 +30,6 @@ public class EstimacionPi {
         double valorPi = 4.0 * contadorDentro / cDardosTotales;
 
         // Imprimimos el resultado
-        System.out.println("Aproximación de pi: " + valorPi);
+        System.out.printf("Aproximación de pi: %.6f%n", valorPi);
     }
 }

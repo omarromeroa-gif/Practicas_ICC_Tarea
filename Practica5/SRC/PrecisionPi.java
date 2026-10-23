@@ -38,7 +38,7 @@ public class PrecisionPi {
         System.out.println("Dardos necesarios: " + cDardosLanzados);
         
         // Imprimimos la aproximación calculada de la forma sencilla
-        System.out.println("Aproximación de pi: " + valorPi);
+        System.out.printf("Aproximación de pi: %.6f%n", valorPi);
     }
 }
 
