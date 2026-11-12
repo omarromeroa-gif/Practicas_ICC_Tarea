@@ -1,0 +1,1 @@
+En esta Practica utilizamos diversos comandos para saber los usos de Math,While, entre otras cosas. Creamos unos contadores que te ayudan a la estimación de PI y mejoramos el programa del señor Pines.
